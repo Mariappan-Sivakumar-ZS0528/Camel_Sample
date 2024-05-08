@@ -1,0 +1,7 @@
+<!--<routes xmlns="http://camel.apache.org/schema/spring">-->
+<!--    <route id="timer">-->
+<!--        <from uri="rest:get:/test?host=localhost:8080"/>-->
+<!--        <log message="test"/>-->
+<!--&lt;!&ndash;        <process ref="TestProcessor"/>&ndash;&gt;-->
+<!--    </route>-->
+<!--</routes>-->

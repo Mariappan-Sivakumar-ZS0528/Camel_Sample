@@ -1,0 +1,27 @@
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+<!--       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--       xsi:schemaLocation="-->
+<!--       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd-->
+<!--       http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd-->
+<!--    ">-->
+
+<!--    <camelContext xmlns="http://camel.apache.org/schema/spring">-->
+<!--        <route>-->
+<!--            <from uri="direct:a"/>-->
+<!--            <choice>-->
+<!--                <when>-->
+<!--                    <xpath>$foo = 'bar'</xpath>-->
+<!--                    <to uri="direct:b"/>-->
+<!--                </when>-->
+<!--                <when>-->
+<!--                    <xpath>$foo = 'cheese'</xpath>-->
+<!--                    <to uri="direct:c"/>-->
+<!--                </when>-->
+<!--                <otherwise>-->
+<!--                    <to uri="direct:d"/>-->
+<!--                </otherwise>-->
+<!--            </choice>-->
+<!--        </route>-->
+<!--    </camelContext>-->
+
+<!--</beans>-->

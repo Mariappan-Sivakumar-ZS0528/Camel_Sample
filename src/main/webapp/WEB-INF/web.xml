@@ -1,0 +1,19 @@
+<!--<web-app>-->
+<!--    <servlet>-->
+<!--        <servlet-name>CamelServlet</servlet-name>-->
+<!--        <servlet-class>org.apache.camel.component.servlet.CamelHttpTransportServlet</servlet-class>-->
+<!--        <init-param>-->
+<!--            <param-name>async</param-name>-->
+<!--            <param-value>true</param-value>-->
+<!--        </init-param>-->
+<!--        <init-param>-->
+<!--            <param-name>executorRef</param-name>-->
+<!--            <param-value>my-custom-thread-pool</param-value>-->
+<!--        </init-param>-->
+<!--    </servlet>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>ApplicationResource</servlet-name>-->
+<!--        <url-pattern>/services/*</url-pattern>-->
+<!--    </servlet-mapping>-->
+<!--</web-app>-->

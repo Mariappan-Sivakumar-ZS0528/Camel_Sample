@@ -27,11 +27,6 @@ public class OrderService {
     }
 
     public List<Order> getOrders(){
-//        try{
-//            System.out.println("Test");
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
         return orders;
     }
 
